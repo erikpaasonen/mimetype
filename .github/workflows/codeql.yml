@@ -2,9 +2,9 @@ name: Code Scanning
 
 on:
   push:
-    branches: [master]
+    branches: [not-exist]
   pull_request:
-    branches: [master]
+    branches: [not-exist]
 
 permissions:
   contents: read
